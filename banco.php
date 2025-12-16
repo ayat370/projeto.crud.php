@@ -11,7 +11,8 @@ class Banco
     
     public function __construct() 
     {
-        die('A função Init nao é permitido!');
+        die('A função Init nao é permitido! bonjour');
+        
     }
     
     public static function conectar()
@@ -37,3 +38,4 @@ class Banco
 }
 
 ?>
+
